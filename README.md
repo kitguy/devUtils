@@ -14,3 +14,9 @@ rsync -avzh <origin> <destination>
 find  -type d -iname "*[0-9]" -mtime +90  -exec du -hs --time -- '{}' \;
 
 find  -type d -iname "*[0-9]" -mtime +90  -exec rm -rf {} \;
+
+## Java/Spring Utils
+
+### Don't use config server
+Put as java parameter: 
+--spring.cloud.config.enabled=false
