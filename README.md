@@ -18,5 +18,5 @@ find  -type d -iname "*[0-9]" -mtime +90  -exec rm -rf {} \;
 ## Java/Spring Utils
 
 ### Don't use config server
-Put as java parameter: 
+Put as program argument: 
 --spring.cloud.config.enabled=false
